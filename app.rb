@@ -17,7 +17,7 @@ end
 get "/contacts" do
   @contacts = Contact.all
   erb :index
-#end
+end
 
 get "/create" do
   dashboard_url = 'https://dashboard.heroku.com/'
